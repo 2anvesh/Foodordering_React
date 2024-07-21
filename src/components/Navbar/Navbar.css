@@ -1,0 +1,55 @@
+.navbar {
+
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 90%;
+  z-index: 1000; /* Ensure the navbar is above other elements */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: add a shadow for visual separation */
+  background-color: white;
+      
+  }
+  
+  .navbar .logo {
+    width: 150px;
+  }
+  
+  .navbar-menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: #49557e;
+    font-size: 18px;
+  }
+  
+  .navbar-menu .active {
+    padding-bottom: 2px;
+    border-bottom: 2px solid #49557e;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .navbar-search-icon {
+    position: relative;
+  }
+  
+  .navbar-search-icon .dot {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+  }
+  .navbar li{
+    cursor: pointer;
+}
+
